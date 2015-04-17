@@ -6,7 +6,7 @@ Les personnas de ce guide touristique sont nombreux , entre autre voyageure d'af
 ##Contributeurs##
 + Ifrah Anass
 + Chentouf Anass
-+Dellal Abderrahmane
++ Dellal Abderrahmane
 
 ##Organisation##
 + Trello : <https://trello.com/b/fEdmvJ2l/site-de-guide-touristique-html5-up>
