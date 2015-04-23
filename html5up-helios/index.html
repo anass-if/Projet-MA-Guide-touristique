@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Helios by HTML5 UP</title>
+		<title>Guide Touristique</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
@@ -18,7 +18,11 @@
 		<script src="js/skel.min.js"></script>
 		<script src="js/skel-layers.min.js"></script>
 		<script src="js/init.js"></script>
+		<!--Javascript-->
+		<script src="js/jquery-1.11.0.min.js"></script>
+        <script src="js/lightbox.min.js"></script>
 		<noscript>
+			<link href="css/lightbox.css" rel="stylesheet" />
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
 			<link rel="stylesheet" href="css/style-desktop.css" />
@@ -34,6 +38,15 @@
 				<!-- Inner -->
 					<div class="inner">
 						<header>
+							<div id="google_translate_element" align="right" style="position: absolute;
+		top: 0;right:30px"></div><script>
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'fr'
+  }, 'google_translate_element');
+}
+</script><script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
 							<h2><a href="http://www.tripadvisor.com/TravelersChoice-Destinations">Marrakech meilleur destination touristique en 2015</a></h2>
 							<hr />
 							<p>Bienvenu a Marrakech</p>
@@ -67,14 +80,8 @@
 							</li>
 							<li><a href="left-sidebar.html">Toursime & Voyage</a></li>
 							<li><a href="right-sidebar.html">Restos & Sorties</a></li>
-							<li><a href="no-sidebar.html">No Sidebar</a></li>
-							<li><div id="google_translate_element"></div><script>
-function googleTranslateElementInit() {
-  new google.translate.TranslateElement({
-    pageLanguage: 'fr'
-  }, 'google_translate_element');
-}
-</script><script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script></li>
+							
+							<li></li>
 						</ul>
 					</nav>
 
@@ -82,6 +89,7 @@ function googleTranslateElementInit() {
 			
 		<!-- Banner -->
 			<section id="banner">
+
 				<header>
 					<p>
 						<u><b>Marrakech</b></u> , surnommée la Ville rouge ou Ville ocre, est une ville du Maroc.
@@ -93,17 +101,9 @@ La ville est un haut-lieu touristique, plus de deux millions de touristes chaque
 		<!-- Carousel -->
 			<section class="carousel">
 				<div class="reel">
-
-					<article>
-						<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
-						<header>
-							<h3><a href="#">Pulvinar sagittis congue</a></h3>
-						</header>
-						<p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>							
-					</article>
 				
 					<article>
-						<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
+						<a href="imgages/pic01.jpg" data-lightbox="image-1" data-title="My caption"><img src="images/pic02.jpg" alt="" /></a>
 						<header>
 							<h3><a href="#">Fermentum sagittis proin</a></h3>
 						</header>
@@ -150,30 +150,6 @@ La ville est un haut-lieu touristique, plus de deux millions de touristes chaque
 						<p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>							
 					</article>
 				
-					<article>
-						<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
-						<header>
-							<h3><a href="#">Sed quis rhoncus placerat</a></h3>
-						</header>
-						<p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>							
-					</article>
-				
-					<article>
-						<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
-						<header>
-							<h3><a href="#">Ultrices urna sit lobortis</a></h3>
-						</header>
-						<p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>							
-					</article>
-				
-					<article>
-						<a href="#" class="image featured"><img src="images/pic05.jpg" alt=""  /></a>
-						<header>
-							<h3><a href="#">Varius magnis sollicitudin</a></h3>
-						</header>
-						<p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>							
-					</article>
-
 				</div>
 			</section>
 			
@@ -232,108 +208,32 @@ La ville est un haut-lieu touristique, plus de deux millions de touristes chaque
 						<!-- Tweets -->
 							<section class="4u">
 								<header>
-									<h2 class="icon fa-twitter circled"><span class="label">Tweets</span></h2>
+									<img src="img/icon_meteo.gif">
 								</header>
 								<ul class="divided">
 									<li>
 										<article class="tweet">
-											<div id="cont_c832fdd57280b2fa788bc049735c4af3">
-  <span id="h_c832fdd57280b2fa788bc049735c4af3"><h2 id="h2_c832fdd57280b2fa788bc049735c4af3"><a id="a_c832fdd57280b2fa788bc049735c4af3" href="http://www.tameteo.com/" target="_blank" style="color:#808080;font-family:Times New Roman;font-size:14px;">Meteo</a></h2> Marrakech</span>
-  <script type="text/javascript" async src="https://www.tameteo.com/wid_loader/c832fdd57280b2fa788bc049735c4af3"></script>
-</div>.
-											<span class="timestamp">5 minutes ago</span>
-										</article>
-									</li>
-									<li>
-										<article class="tweet">
-											Hendrerit rutrum quisque.
-											<span class="timestamp">30 minutes ago</span>
-										</article>
-									</li>
-									<li>
-										<article class="tweet">
-											Curabitur donec nulla massa laoreet nibh. Lorem praesent montes.
-											<span class="timestamp">3 hours ago</span>
-										</article>
-									</li>
-									<li>
-										<article class="tweet">
-											Lacus natoque cras rhoncus curae dignissim ultricies. Convallis orci aliquet.
-											<span class="timestamp">5 hours ago</span>
-										</article>
-									</li>
+											<div id="cont_OTg4ODZ8NXwyfDF8MXxGRkZGRkZ8MXxGRkZGRkZ8Y3wx"><div id="spa_OTg4ODZ8NXwyfDF8MXxGRkZGRkZ8MXxGRkZGRkZ8Y3wx"><a id="a_OTg4ODZ8NXwyfDF8MXxGRkZGRkZ8MXxGRkZGRkZ8Y3wx" href="http://www.meteocity.com/maroc/marrakech_v98886/" rel="nofollow" target="_blank" style="color:#333;text-decoration:none;">Météo Marrakech</a> © meteocity.com</div><script type="text/javascript" src="http://widget.meteocity.com/js/OTg4ODZ8NXwyfDF8MXxGRkZGRkZ8MXxGRkZGRkZ8Y3wx"></script></div>
+
 								</ul>
 							</section>
 
 						<!-- Posts -->
 							<section class="4u">
 								<header>
-									<h2 class="icon fa-file circled"><span class="label">Posts</span></h2>
+									<img src="img/icon-horloge.jpg">
 								</header>
-								<ul class="divided">
-									<li>
-										<article class="post stub">
-											<header>
-												<h3><a href="#">Nisl fermentum integer</a></h3>
-											</header>
-											<span class="timestamp">3 hours ago</span>
-										</article>
-									</li>
-									<li>
-										<article class="post stub">
-											<header>
-												<h3><a href="#">Phasellus portitor lorem</a></h3>
-											</header>
-											<span class="timestamp">6 hours ago</span>
-										</article>
-									</li>
-									<li>
-										<article class="post stub">
-											<header>
-												<h3><a href="#">Magna tempus consequat</a></h3>
-											</header>
-											<span class="timestamp">Yesterday</span>
-										</article>
-									</li>
-									<li>
-										<article class="post stub">
-											<header>
-												<h3><a href="#">Feugiat lorem ipsum</a></h3>
-											</header>
-											<span class="timestamp">2 days ago</span>
-										</article>
-									</li>
-								</ul>
+								
+										<div style="text-align:center;width:350px;"> <h2><a style="text-decoration:none;" href="http://www.zeitverschiebung.net/fr/city/2542997"><span style="color:gray;"></span>Marrakesh, Morocco</a></h2> <iframe src="http://www.zeitverschiebung.net/clock-widget-iframe?language=fr&timezone=Africa%2FCasablanca" width="100%" height="130" frameborder="0" seamless></iframe> <small style="color:gray;">&copy; <a href="http://www.zeitverschiebung.net/fr/" style="color: gray;">Décalage horaire</a></small> </div>
+									
 							</section>
 
 						<!-- Photos -->
 							<section class="4u">
 								<header>
-									<h2 class="icon fa-camera circled"><span class="label">Photos</span></h2>
+									<img src="img/Map-icon.png">
 								</header>
-								<div class="row 25% no-collapse">
-									<div class="6u">
-										<a href="#" class="image fit"><img src="images/pic10.jpg" alt="" /></a>
-									</div>
-									<div class="6u">
-										<a href="#" class="image fit"><img src="images/pic11.jpg" alt="" /></a>
-									</div>
-								</div>
-								<div class="row 25% no-collapse">
-									<div class="6u">
-										<a href="#" class="image fit"><img src="images/pic12.jpg" alt="" /></a>
-									</div>
-									<div class="6u">
-										<a href="#" class="image fit"><img src="images/pic13.jpg" alt="" /></a>
-									</div>
-								</div>
-								<div class="row 25% no-collapse">
-									<div class="6u">
-										<a href="#" class="image fit"><img src="images/pic14.jpg" alt="" /></a>
-									</div>
-									<div class="6u">
-										<a href="#" class="image fit"><img src="images/pic15.jpg" alt="" /></a>
-									</div>
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108703.09881241457!2d-8.007853099999998!3d31.634621449999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xdafee8d96179e51%3A0x5950b6534f87adb8!2sMarrakech%2C+Maroc!5e0!3m2!1sfr!2sfr!4v1429827874755" width="400" height="300" frameborder="0" style="border:0"></iframe>
 								</div>
 							</section>
 
@@ -345,9 +245,9 @@ La ville est un haut-lieu touristique, plus de deux millions de touristes chaque
 							<!-- Contact -->
 								<section class="contact">
 									<header>
-										<h3>Nisl turpis nascetur interdum?</h3>
+										<h3>Methode Agile </h3>
 									</header>
-									<p>Urna nisl non quis interdum mus ornare ridiculus egestas ridiculus lobortis vivamus tempor aliquet.</p>
+									<p>Université Paul Sabatier</p>
 									<ul class="icons">
 										<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
 										<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
