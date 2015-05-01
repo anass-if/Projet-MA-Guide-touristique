@@ -4,8 +4,8 @@ Dans le cadre de l'Ue Méthode Agile , notre groupe est amené à créer un guide to
 Les personnas de ce guide touristique sont nombreux , entre autre voyageure d'affaire , voyageure passionné par la ville , groupe de jeunes ..
 
 ##Contributeurs##
-+ Ifrah Anass
-+ Chentouf Anass
++ Ifrah Anass(anassovich)
++ Chentouf Anass(chentouf)
 + Dellal Abderrahmane
 
 ##Organisation##
